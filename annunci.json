@@ -1,0 +1,96 @@
+[ 
+    {
+        "id": 1,
+        "img": "./card/nike3.jpg",
+        "name": "Blazer",
+        "category": "Nike",
+        "price": "105"
+    },
+
+    {
+        "id": 2,
+        "img": "./card/dunk1.jpg",
+        "name": "Dunk Low",
+        "category": "Dunk",
+        "price": "150"
+    },
+
+    {
+        "id": 3,
+        "img": "./card/jordan4.jpg",
+        "name": "Jordan 4",
+        "category": "Air Jordan",
+        "price": "450"
+    },
+
+    {
+        "id": 4,
+        "img": "./media/card1.jpg",
+        "name": "Jordan 1",
+        "category": "Air Jordan",
+        "price": "210"
+    },
+
+    {
+        "id": 5,
+        "img": "./card/dunk2.jpg",
+        "name": "Dunk High",
+        "category": "Dunk",
+        "price": "200"
+    },
+
+    {
+        "id": 6,
+        "img": "./card/jordan2.jpeg",
+        "name": "Jordan 2",
+        "category": "Air Jordan",
+        "price": "85"
+    },
+
+    {
+        "id": 7,
+        "img": "./card/dunk3.jpg",
+        "name": "Pink Dunk",
+        "category": "Dunk",
+        "price": "125"
+    },
+
+    {
+        "id": 8,
+        "img": "./card/airforce1.jpg",
+        "name": "White",
+        "category": "Air force one",
+        "price": "100"
+    },
+
+    {
+        "id": 9,
+        "img": "./card/airforce3.jpg",
+        "name": "Air force dragon",
+        "category": "Air force one",
+        "price": "50"
+    },
+
+    {
+        "id": 10,
+        "img": "./card/nike1.jpeg",
+        "name": "Magic sneakers",
+        "category": "Nike",
+        "price": "750"
+    },
+
+    {"id": 11,
+    "img": "./card/airforce2.jpg",
+    "name": "Black",
+    "category": "Air force one",
+    "price": "75"
+    },
+
+
+    {"id": 12,
+    "img": "./card/nike2.jpeg",
+    "name": "Air max",
+    "category": "Nike",
+    "price": "95"
+    }
+]

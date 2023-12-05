@@ -1,0 +1,173 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+:root{
+    --main:rgb(42, 55, 243);
+    --sec:rgb(227, 78, 81);
+    --ter:rgba(5, 23, 218, 0.636);
+}
+
+.header{
+    background-image:linear-gradient(transparent,rgba(0, 0, 0, 0.495)), url(./media/header.jpg);
+    opacity: 10;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bolder;
+    color: black;
+}
+
+.prices{
+    font-weight: bolder;
+    color: rgb(232, 65, 65);
+}
+.category{
+    color:rgb(232, 65, 65);
+}
+
+.card-img{
+
+background-position: center;
+background-size: cover;
+height: 30vh;
+justify-content: center;
+text-align: end;
+}
+
+h2{
+    color: var(--main);
+    font-family: 'Libre Baskerville', serif;
+}
+
+h5{
+    color: var(--sec);
+}
+
+.titolo{
+font-family: 'Libre Baskerville', serif;
+font-weight: bolder;
+color: var(--main);
+letter-spacing: 5px;
+animation-name: title;
+animation-duration: 3s;
+animation-iteration-count: 1;
+}
+
+.navbar-brand{
+    color: var(--sec);
+}
+
+.navbar-brand:hover{
+    transition: 1s;
+}
+
+
+.nav-link{
+    color: var(--sec);
+}
+
+.nav-link:hover{
+    transition: 1s;
+}
+
+.bg{
+    background-color: var(--ter);
+}
+
+.bg:hover{
+   background-image: linear-gradient(transparent,rgb(227, 78, 81)),url(./media/card1.jpg);
+   background-size: cover;
+   background-position: center;
+    transition: 1s;
+}
+
+.border-botto{
+    border-bottom: 3px solid var(--main);
+    width: 20%;
+}
+
+.border-botto-2{
+    border-bottom: 3px solid var(--sec);
+    width: 20%;
+}
+
+.navbar-scroll{
+    background-color: white;
+    transition: 1s;
+}
+
+.swiper-pagination{
+    text-decoration: var(--sec);
+    
+}
+
+.btn-outline-danger{
+    transition: 1s;
+}
+
+.transizione{
+    transition: 1s;
+}
+
+
+/* swiper */
+
+.swiper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-pagination-bullet{
+    background-color: var(--main) !important ;
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color: var(--sec) !important ;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+
+@keyframes title{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+
+.footer{
+    height: 100vh;
+    background-image:linear-gradient(white,transparent,black), url(./media/card1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.text{
+    color: white;
+}
+
+
+@media screen and (max-width:667px) {
+    .text{
+        color: blue;
+    }
+}
